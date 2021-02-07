@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #303030;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+a,
+a:visited {
+  color: blue;
+}
+
+.links {
+  position: fixed;
+  left: 50px;
+  bottom: 25px;
+}
+
+.links a,
+links a:visited {
+  color: #c1c1c1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.vl {
+  border-left: 3px dotted white;
+  left: 450px;
+  right: 450px;
+  height: 100vh;
+  margin-left: 9px;
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+  align-items: center;
+}
+
+section.big {
+  height: 15rem;
+}
+
+section div {
+  color: rgb(228, 228, 228);
+}
+
+.left,
+.right {
+  width: 450px;
+}
+
+.left {
+  text-align: right;
+  padding-right: 5rem;
+  font-size: 7rem;
+}
+
+section.big .left {
+  font-size: 2.8rem;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}
+
+.dotGreen {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid white;
+  background: #498453;
+}
+
+.dotRed {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid white;
+  background: #844949;
+}
+
+.dotPreview {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid white;
+  background: #927777;
+}
+
+.dotRelease {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid white;
+  background: #b0b4b1;
+}
+
+.right {
+  padding-left: 1rem;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  height: 13rem;
+}
+
+.bubbleTri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bubbleTri {
+  margin: -20px;
+}
+
+.bubbleLineDone {
+  min-width: 4rem;
+  background: #498453;
+}
+
+.bubbleLineFocus {
+  min-width: 4rem;
+  background: #844949;
+}
+
+.bubbleLineNext {
+  min-width: 4rem;
+  background: #927777;
+}
+
+.bubbleLineFuture {
+  min-width: 4rem;
+  background: #b0b4b1;
+}
+
+.bubbleText {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #484848;
+  width: 400px;
+}
+
+.bubbleTextHeadline {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: inherit;
+}
+.bubbleTextText {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  font-size: 2.8rem;
+  color: inherit;
+}
